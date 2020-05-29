@@ -1,0 +1,41 @@
+h1 {
+    margin-top: 5px;
+    text-align: center;
+}
+
+.formikContainer {
+    text-align: center;
+    background-color: #2E4158;
+}
+
+.formikLabel {
+    font-size: 4vh;
+    color: white;
+}
+
+.FormFieldBtn {
+  /* margin-bottom: 40px; */
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.formikInputFild {
+    /* border: 2px solid red; */
+
+    display: block;
+    width: 500px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    height: 30px;
+    font-size: 3vh;
+}
+.erMessage {
+    background-color: orange;
+    color: orangered;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.radioDiv {
+  margin-top: 15px;
+} 

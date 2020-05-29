@@ -1,0 +1,29 @@
+.mainRecipeDiv { 
+    /* background: url('./img/backgrDiet.jpg'); */
+    background: rgb(63, 160, 127);
+}
+
+.containerRecipe {
+    padding-top: 40px;
+    padding-bottom: 80px;
+    text-align: center;
+}
+
+.containerRecipe > div {
+    margin: 50px;
+}
+
+h4 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.recipeImg {
+    width: 30%;
+    height: 30%;
+}
+
+ul, ol {
+    text-align: left;
+    margin-left: 100px;
+}

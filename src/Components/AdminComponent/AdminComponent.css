@@ -1,0 +1,93 @@
+.container-div {
+    /* border: 1px solid black; */
+
+    height: 100vh;
+    display: flex;
+    /* justify-content: space-around; */
+    flex-direction: column;
+}
+
+.top-div {
+    text-align: center; 
+    margin-top: 70px;     
+}
+
+.buttom-div {
+    display: flex;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 875px) {
+    .buttom-div {
+      flex-direction: column;
+      /* height: 100%; */
+      margin-bottom: 100px;
+    }
+}
+
+/* .left-div {
+    width: 50%;
+} */
+
+/* .left-div {
+    border: 1px solid black;
+} */
+.right-div {
+    /* width: 50%; */
+    overflow: auto;    
+}
+
+.content-table {
+    border-collapse: collapse;
+    margin: 5px auto;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.content-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+
+.content-table th, td {
+    padding: 12px 15px;
+}
+
+.content-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.content-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+/* .content-table tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+} */
+
+.content-table tr button {
+    background-color: #009879;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.retreive-btn {
+    background-color: #009879;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 5px; 
+    margin-bottom: 20px;
+}
